@@ -2,18 +2,18 @@
 @import "bootstrap";
 
 .navbar {
-  background:url('arches.png');
+  /* background:url('arches.png'); */
   background-color: gold;
-  /* border: 1px solid #999; */
   font-size: 114%;
   font-family: 'Shrikhand', cursive;
   font-weight: 200;
   box-shadow: 1px 1px 3px #888;
+  border: none;
   border-radius: 0;
 }
 
 .navbar-inverse a.navbar-brand {
+  color: black;
   font-family: 'Shrikhand', cursive;
   font-size: 117%;
-  text-shadow: 2px 2px 1px #888;
 }
