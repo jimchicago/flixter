@@ -4,7 +4,7 @@
 .navbar {
   /* background:url('arches.png'); */
   background-color: gold;
-  font-size: 114%;
+  font-size: 117%;
   font-family: 'Shrikhand', cursive;
   font-weight: 200;
   box-shadow: 1px 1px 3px #888;
@@ -16,4 +16,8 @@
   color: black;
   font-family: 'Shrikhand', cursive;
   font-size: 117%;
+}
+
+a.navbar-brand:hover {
+  text-shadow: 2px 2px 2px #555;
 }
