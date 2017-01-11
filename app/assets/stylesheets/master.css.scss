@@ -1,6 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background-image: url('arches.png');
+  font-family: 'Trebuchet MS', Helvetica;
+  /* (Other fonts reco'ed by TFP): font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; */
+}
+
 .navbar {
   /* background:url('arches.png'); */
   background-color: gold;
@@ -20,4 +26,37 @@
 
 .navbar-inverse a.navbar-brand:hover {
   text-shadow: 2px 2px 2px #555;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.hero {
+  background: url('mtn_guy.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0 3px 8px #888;
+}
+
+.frosty {
+  color: white;
+  background-color: rgba(0,0,0, 0.4);
+  padding: 1% 2%;
+
+}
+
+.frosty h1 {
+  font-family: "Trebuchet MS", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Trebuchet MS", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
