@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
-# These 2 gems added by Jim H on 1/10/16 per TFP instructions:
+# These 3 gems added by Jim H on 1/10/16 per TFP instructions:
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
