@@ -3,7 +3,7 @@
 
 body {
   background-image: url('arches.png');
-  font-family: 'Trebuchet MS', Helvetica;
+  font-family: 'Helvetica Neue', Helvetica;
   /* (Other fonts reco'ed by TFP): font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; */
 }
 
@@ -50,13 +50,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty h1 {
-  font-family: "Trebuchet MS", Helvetica;
+  font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .frosty h2 {
-  font-family: "Trebuchet MS", Helvetica;
+  font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
@@ -69,4 +69,12 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 2%;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
+.clr {
+  clear: both;
 }
