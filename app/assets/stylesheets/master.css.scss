@@ -24,7 +24,8 @@ body {
   font-size: 117%;
 }
 
-.navbar-inverse a.navbar-brand:hover {
+.navbar-inverse a.navbar-brand:hover,
+.navbar-nav a:hover {
   text-shadow: 2px 2px 2px #555;
 }
 
