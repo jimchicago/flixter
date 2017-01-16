@@ -4,7 +4,7 @@ class Instructor::LessonsController < ApplicationController
   
   def new
     @lesson = Lesson.new
-    @course = @section.course
+    current_course = @section.course
   end
 
   def create
