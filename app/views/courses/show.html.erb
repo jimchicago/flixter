@@ -12,10 +12,30 @@
       <br />
       <br />
       <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
-    <% end %>  
+    <% end %>
   </div>
 
   <div class="col-sm-8 col-xs-12">
     <%= @course.description %>
+  </div>
+  <br /><br />
+  <hr />
+  <div class="col-xs-12">
+    <% @course.sections.each do |section| %>
+      <div class="section">
+        <h4><%= section.title %></h4>
+        <% section.lessons.each do |lesson| %>
+          <div class="lesson">
+            <%= link_to lesson_path(lesson) do %>
+              <b><%= lesson.title %></b>
+            <% end %>
+              --
+            <%= lesson.subtitle %>
+          </div>
+        <% end %>
+         <br />
+         <br />
+      </div>
+    <% end %>
   </div>
 </div>
