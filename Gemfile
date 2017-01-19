@@ -31,6 +31,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'rails_12factor', group: :production # Added 1/10/17 by Jim H.
 gem 'carrierwave', '~> 1.0' # Added 1/18/17 by Jim H.
+gem "figaro", ">= 1.0.0" # Added 1/19/17 by Jim H.
+gem "fog" # Added 1/19/17 by Jim H.
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
