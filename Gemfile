@@ -36,6 +36,8 @@ gem 'carrierwave' # Added 1/18/17 by Jim H.
 gem 'mini_magick' # Added 1/19/17 by Jim H.
 gem 'carrierwave-aws' # Added 1/19/17 by Jim H.
 gem 'stripe' # Added 1/24/17 by Jim H.
+gem 'ranked-model' # Added 1/25/17 by Jim H.
+gem 'jquery-ui-rails' # Added 1/31/17 by Jim H.
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
