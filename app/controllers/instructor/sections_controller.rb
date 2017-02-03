@@ -39,6 +39,11 @@ helper_method :current_course
     end
   end
 
+helper_method :current_section
+def current_section
+  @current_section ||= Section.find(params[:id])
+end
+
   def require_authorized_for_current_section
     if current_section.course.user != current_user
       render text: "Unauthorized", status: :unauthorized
