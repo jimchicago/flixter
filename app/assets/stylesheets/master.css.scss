@@ -10,6 +10,7 @@ body {
 .navbar {
   /* background:url('arches.png'); */
   background-color: gold;
+  height: auto;
   font-size: 122%;
   font-family: 'Shrikhand', cursive;
   font-weight: 200;
@@ -178,4 +179,8 @@ ul .header {
 
 .vert-space {
   margin-bottom: 20px;
+}
+
+.teampic {
+  max-height: 320px;
 }

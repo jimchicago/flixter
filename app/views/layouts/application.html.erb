@@ -72,13 +72,51 @@
   </div>
 </main>
 
-  <br class="clr" />
+<br class="clr" />
 
-  <div id="footer">
-    <div class="container">
-      <b>Teachers</b>
-      <br />
-      <%= link_to 'Teach a Course', new_instructor_course_path %>
+<div id="footer">
+  <div class="col-xs-12 col-sm-3">
+    <b>Teachers</b>
+    <br />
+    <%= link_to 'Teach a Course', new_instructor_course_path %>
+    <br />
+    <%= link_to 'My Dashboard', dashboard_path %>
   </div>
+  <div class="col-xs-12 col-sm-3">
+    <b>About</b>
+    <br />
+    <%= link_to 'Team', team_path %>
+    <br />
+    <%= link_to 'Careers', careers_path %>
+    <br />
+    <%= link_to 'Privacy Policy', privacy_path %>
+  </div>
+  <div class="col-xs-12 col-sm-3">
+    <b>Contact</b>
+    <br />
+    jim@jhwm.net
+    <br />
+    123 Main Street
+    <br />
+    La Grange, IL 60525
+  </div>
+  <div class="col-xs-12 col-sm-3 social">
+    <b>Social</b>
+    <br />
+    <%= link_to 'http://github.com/jimchicago' do %>
+      <%= image_tag 'github_icon.png', class: 'social-button' %>
+    <% end %>
+    <%= link_to 'http://facebook.com' do %>
+      <%= image_tag 'facebook_icon.png', class: 'social-button' %>
+    <% end %>
+    <%= link_to 'http://twitter.com/jhwebmarketing' do %>
+      <%= image_tag 'twitter_icon.png', class: 'social-button' %>
+    <% end %>
+    <%= link_to 'http://youtube.com' do %>
+      <%= image_tag 'youtube_icon.png', class: 'social-button' %>
+    <% end %>
+  </div>
+</div>
+</div>
 </body>
 </html>
